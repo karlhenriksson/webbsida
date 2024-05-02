@@ -1,0 +1,86 @@
+
+:root {
+  --primary-background: rgb(219, 219, 219);
+  --secondary-background: rgb(200, 200, 200);
+  --border-color: gray;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+  background-color: var(--primary-background);
+  font-family:'Times New Roman', Times, serif;
+}
+
+#sidebar {
+  flex: 1;
+  height: 100vh;
+  min-width: 200px;
+
+  padding: 10px;
+
+  box-shadow: 0px 0px 5px 5px rgb(92, 92, 92);
+
+  background-color: rgb(160, 160, 160);
+}
+#mainContent {
+  height: 100vh;
+  flex: 4;
+  padding: 0px 30px;
+}
+
+.centerText {
+  text-align: center;
+}
+.header {
+  font-size: xx-large;
+  text-align: center;
+}
+.textCard {
+  border-radius: 12px;
+  border: var(--border-color) solid 6px;
+  padding: 10px;
+
+  background-color: var(--secondary-background);
+
+  p {
+    margin: 0px;
+  }
+}
+.inlineBlock {
+  background-color: var(--secondary-background);
+  border-left: solid 20px var(--border-color);
+}
+
+.sidebarOption {
+  margin: 5px 0px;
+  padding: 5px;
+  display: block;
+
+  text-align: center;
+  color: black;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+/* If on computer, change to other screen type */
+@media only screen and (min-width: 800px) {
+  body {
+    flex-direction: row;
+  }
+  #sidebar {
+    border-bottom: unset;
+  }
+
+  .sidebarOption {
+    text-align: left;
+  }
+  .tabbedSidebar {
+    margin-left: 15px;
+  }
+}

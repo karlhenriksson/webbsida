@@ -1,0 +1,4 @@
+PLANS:
+
+Round buttons at the bottom of the sidebar
+Working organizing system for the files

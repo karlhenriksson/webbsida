@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="functionalElements.css" />
+    <title>Webbsida - Showcase</title>
+  </head>
+  <body>
+    <div id="sidebar">
+      <div class="collapsibleMobile sidebarOption centerText">Navigera</div>
+      <p class="removeIfJS">
+        Du har stängt av JavaScript. Detta kan orsaka oväntade problem med
+        webbsidan!
+      </p>
+      <div id="navigationParent"></div>
+    </div>
+    <div id="mainContent">
+      <p class="header">Showcase-sida</p>
+      <p>
+        En testsida för att visa diverse olika grejer man kan göra.<br /><br />
+        Navigeringsgrejen i sidebaren uppdateras automatiskt från en JSON-fil,
+        så de är statiska mellan de olika sidorna.
+      </p>
+      <div class="textCard">
+        <p>Ett litet textblock som kan innehålla vad man vill.</p>
+      </div>
+      <div class="inlineBlock">
+        <p>En sektion av texten som är extra framhävd.</p>
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="loadStaticData.js"></script>
+    <script src="functionalElements.js"></script>
+  </body>
+</html>

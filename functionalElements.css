@@ -1,0 +1,28 @@
+/*
+
+A complemeentary file for functionalElements.js
+
+*/
+
+/* Configuration values */
+
+:root {
+  --functional-closed: rgb(160, 160, 160);
+  --functional-closed-text: black;
+
+  --functional-opened: gray;
+  --functional-opened-text: black;
+}
+
+/* Collapsibles */
+
+.collapsible, .collapsibleMobile {
+  background-color: var(--functional-closed);
+  color: var(--functional-closed-text);
+  
+}
+
+.collapsibleActive {
+  background-color: var(--functional-opened);
+  color: var(--functional-opened-text);
+}

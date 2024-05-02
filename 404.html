@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="functionalElements.css" />
+    <title>Webbsida - 404</title>
+  </head>
+  <body>
+    <div id="sidebar">
+      <div class="collapsibleMobile sidebarOption centerText">Navigera</div>
+      <p class="removeIfJS">
+        Du har stängt av JavaScript. Detta kan orsaka oväntade problem med
+        webbsidan!
+      </p>
+      <div id="navigationParent"></div>
+    </div>
+    <div id="mainContent">
+      <p class="header">404</p>
+      <p class="text">
+        Sidan du sökte kunde inte hittas. Kontrollera att du skrivit URL:en
+        rätt.<br /><br />Alternativt finns inte sidan du söker mer.
+      </p>
+    </div>
+    <!-- Scripts -->
+    <script src="loadStaticData.js"></script>
+    <script src="functionalElements.js"></script>
+  </body>
+</html>
