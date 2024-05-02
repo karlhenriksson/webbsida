@@ -1,0 +1,12 @@
+{
+  "Hem": "index.html",
+  "Testsidor": {
+    "Element i brödtext": "showcaseSida.html",
+    "404": "404.html",
+    "Mall": "template.html",
+    "Extern länk": "https://www.google.com",
+    "Nestad navigering": {
+      "Leder ingenstans": "#"
+    }
+  }
+}
